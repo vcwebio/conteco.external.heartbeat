@@ -2,13 +2,12 @@
 
 Import of external official ElasticSearch Filebeat image into the ContEco ecosystem.
 
-## Current Import Version
+## Import Version
 
-Current import is based on filebeat:7.1.1
+Import is based on docker.elastic.co/beats/filebeat.
+Image tag reflects the version.
 
 ## Import Modifications
-
-### Current Modifications
 
 The import build installs the following packages:
 
