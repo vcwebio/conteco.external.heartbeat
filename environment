@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-export CONTECO_LABEL="External ElasticSearch Filebeat image"
-export CONTECO_DESCRIPTION="Import of external ElasticSearch Filebeat image into the ContEco ecosystem."
+export CONTECO_LABEL="external.filebeat - ContEco"
+export CONTECO_DESCRIPTION="ElasticSearch Filebeat image with ContEco external prerequisites installed."
 
 export CONTECO_TYPE="external"
 export CONTECO_NAME="filebeat"
