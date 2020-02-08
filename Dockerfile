@@ -1,10 +1,13 @@
-##### BEGIN external-mapped/Dockerfile/iamge-header #####
+##### BEGIN external-mapped/Dockerfile/image-header #####
 FROM $CONTECO_BASE
 ##### END external-mapped/Dockerfile/image-header #####
 
 ##### BEGIN image/Dockerfile/build-instructions #####
 USER root
-RUN yum install -y gettext && yum install -y epel-release && yum install -y jq && rm -rf /var/cache/yum/*
+RUN yum install -y gettext && \
+    yum install -y epel-release && \
+    yum install -y jq && \
+    rm -rf /var/cache/yum/*
 #USER filebeat
 ##### END image/Dockerfile/build-instructions #####
 
@@ -23,5 +26,5 @@ LABEL $CONTECO_LABELSPACE.schema-version="1.0" \
       $CONTECO_LABELSPACE.build="$CONTECO_BUILD" \
       $CONTECO_LABELSPACE.label="$CONTECO_LABEL" \
       $CONTECO_LABELSPACE.description="$CONTECO_DESCRIPTION" \
-      $CONTECO_LABELSPACE.repository="/conteco/repo" 
+      $CONTECO_LABELSPACE.repository="/conteco/repo"
 ##### END external-mapped/Dockerfile/labels-footer #####
