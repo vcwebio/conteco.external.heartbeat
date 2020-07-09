@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-export CONTECO_LABEL="external.filebeat - ContEco"
-export CONTECO_DESCRIPTION="ElasticSearch Filebeat image with ContEco external prerequisites installed."
+export CONTECO_LABEL="external.heartbeat - ContEco"
+export CONTECO_DESCRIPTION="ElasticSearch HeartBeat image with ContEco external prerequisites installed."
 
 export CONTECO_TYPE="external"
-export CONTECO_NAME="filebeat"
+export CONTECO_NAME="heartbeat"
 export CONTECO_TAG="7.8.0"
 
-export CONTECO_BASE="docker.elastic.co/beats/filebeat:7.8.0"
+export CONTECO_BASE="docker.elastic.co/beats/heartbeat:7.8.0"
 export CONTECO_BUILD="external-mapped"

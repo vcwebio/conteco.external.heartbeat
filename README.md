@@ -1,6 +1,6 @@
-# `external.filebeat` - ContEco
+# `external.heartbeat` - ContEco
 
-ElasticSearch Filebeat image with ContEco external prerequisites installed.
+ElasticSearch HeartBeat image with ContEco external prerequisites installed.
 See `conteco.docs.overview` for more information on the ContEco ecosystem.
 
 ## Installed External Prerequisites
@@ -12,4 +12,3 @@ See `conteco.docs.overview` for more information on the ContEco ecosystem.
 ## Tags
 
 * 7.8.0 (latest)  
-* 7.1.1
